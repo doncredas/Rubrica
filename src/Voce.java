@@ -7,7 +7,13 @@ public class Voce {
 	
 	private String nome;
 	private String cognome;
-	private String numeroTelefono;
+	private String telefono;
+	
+	public Voce(String nome, String cognome, String telefono){
+		this.nome = nome;
+		this.cognome = cognome;
+		this.telefono = telefono;
+	}
 	
 	/**
 	 * restituisce il nome della voce
@@ -42,8 +48,8 @@ public class Voce {
 	/**
 	 * restituisce il numero di telefono della voce
 	*/ 
-	public String getNumeroTelefono() {
-		return numeroTelefono;
+	public String getTelefono() {
+		return telefono;
 	}
 	
 	/**
@@ -51,8 +57,8 @@ public class Voce {
 	 *  con il numero di telefono passato in parametro
 	 * @param string nome
 	*/ 
-	public void setNumeroTelefono(String numeroTelefono) {
-		this.numeroTelefono = numeroTelefono;
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
 	}
 	
 	
