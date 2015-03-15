@@ -1,10 +1,12 @@
 # Rubrica
 
-Programma per la gestione di una rubrica che contiene delle voci.  
--Ogni voce è caratterizzato da un nome, cognome e un numero di telefono  
+Programma per la gestione di una rubrica che contiene delle voci. 
+ 
+*Ogni voce è caratterizzato da un nome, cognome e un numero di telefono  
+*Ogni Rubrica contiene una lista di Voce e un titolo
 
-## Si crea una classe di Test (Nel mio progetto è Test.java) e si mette nel main  
-## il codice seguente.
+## Si crea una classe di Test (Nel mio progetto è Test.java) e si mette nel main il codice seguente.  
+
 	// Quando si crea un oggetto Rubrica si deve fornire un nome 
 	Rubrica r = new Rubrica("prova");
 		
