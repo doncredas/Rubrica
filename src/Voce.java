@@ -61,6 +61,11 @@ public class Voce {
 		this.telefono = telefono;
 	}
 	
+	/**
+	 * Restituisce una breve descrisione della voce
+	 */
+	public String toString(){
+		return this.nome + " " +this.cognome+ " " +this.telefono;
+	}
 	
-
 }
